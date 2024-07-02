@@ -1,74 +1,108 @@
-* {
+body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("images/background.jpg");
+    display: grid;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 40px;
 }
-body {
-    height: 100vh;
-    width: 100vw;
+
+head {
+    display: grid;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
     display: flexbox;
-    
-    }
+    justify-content: center;
+    align-items: center;
+}
 
 h1 {
-    color: rgba(0, 128, 17, 0.747);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-    padding-left: 25px;
-    margin-top: 10px;
+    color: green;
+    margin-left: 20px;
 }
+
+nav a {
+    margin-left: 20px;
+    color: black
+}
+
+.left-side {
+    grid-row-start: 3;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.right-side {
+    grid-row-start: 3;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 8;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+}
+
 h2 {
-    text-align: center;
-    color: whitesmoke;
-    font-size: 30px;
-    margin-bottom: 0px;
-    
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: white;
 }
+
 h3 {
-    justify-content: center;
-    color: rgba(245, 245, 245, 0.836);
-    font-size: 20px;
-    display: flex;
-    padding-top: 0px;
-    
-   
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: white;
 }
-h4 {
-    text-align:right;
-}
-#container {
-margin-top: 10px;
-    background-image: url("./images/background.jpg");
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    }
 
-    #input-container {
-
-    }
-#search-trip {
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
+.input-container {
+    display: grid;
     justify-content: center;
 }
-#result {
-    display: flex;
-    flex-direction: row; 
-    align-items: right;
-    justify-content: end;
+
+form {
+    display: grid;
+    flex-direction: column;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-input {
-    background-color: rgba(128, 128, 128, 0.281);
-    
-    
+input, button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
 }
 
-
-#btn-search {
+button {
     background-color: green;
-    color: white
+    color: white;
 }
+
+h6 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.result img {
+    width: 200px;
+    height: 200px;
+  
+}
+
+

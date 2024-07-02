@@ -2,7 +2,13 @@
 <html lang="en">
 
 <head>
-    
+    <h1>Tickethack</h1>
+    <h2>Explore the world effortlessly by train!</h2>
+    <h3>Compare, book and enjoy cheap prices for train tickets: your journey starts on Tickethack.</h3>
+    <nav>
+        <a href="#">Cart</a>
+        <b href="#">Bookings</b>
+    </nav>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,24 +18,24 @@
 </head>
 
 <body>
-    <h1>Tickethack</h1>
-    <div id="container">
-        <h2>Explore the world effortlessly by train!</h2>
-        <h3>Compare, book and enjoy cheap prices for train tickets: your journey starts on Tickethack.</h3>
-        <h4>Cart</h4>
-        <div id="input-container">
-            <div id="search-trip">
+    <div class="left-side">
+    <div class="search-container">
+
+        <div class="input-container">
+        <form action="#" method="get"> 
             <input id="search" type="text" placeholder="Departure" />
             <input id="search" type="text" placeholder="Arrival">
-            <input id="search" type="text" placeholder="Date">
-            <button type="button" id="btn-search">Search</button>
+            <input id="search" type="date" value="02/07/2024" placeholder="Date">
+            <button type="submit" id="btn-search">Search</button>
+        </form>   
         </div>
-
-
         </div>
-        <div id="result">
-            <img id="train" src="./images/train.png" alt="train">
+        </div>
+        <div class="right-side">
+        <div class="result">
+            <img src="./images/train.png" alt="train">
             <h6>It's time to book your future trip.</h6>
+        </div>
         </div>
     </div>
     <script> src = "script.js"</script>
