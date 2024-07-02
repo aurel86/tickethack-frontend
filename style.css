@@ -22,9 +22,14 @@ h2 {
     text-align: center;
     color: whitesmoke;
     font-size: 30px;
-
+    padding-top: 100px;
 }
-
+h3 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 15px;
+    
+}
 #container {
     background-image: url("./images/background.jpg");
     width: 100vw;
@@ -33,4 +38,11 @@ h2 {
 }
 #search-container {
 display: contents;
+background-color: white;
+}
+
+input {
+    background-color: rgba(128, 128, 128, 0.281);
+    
+    
 }
