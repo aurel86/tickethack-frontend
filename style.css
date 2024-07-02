@@ -13,8 +13,8 @@ h2 {
 
 #container {
     background-image: url("./images/background.jpg");
-min-width: fit-content;
-min-height: fit-content;
-
+}
+#search-container {
+display: contents;
 
 }
