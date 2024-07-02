@@ -1,0 +1,20 @@
+h1 {
+    color: rgba(0, 128, 17, 0.747);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 25px;
+}
+h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+
+}
+
+#container {
+    background-image: url("./images/background.jpg");
+min-width: fit-content;
+min-height: fit-content;
+
+
+}
