@@ -40,12 +40,13 @@ grid-row-end: 9;
 grid-column-start: 8;
 grid-column-end: 10;
 display: flex;
-flex-direction: row;
+flex-direction: column;
 justify-content: center;
 background-color: whitesmoke;
 font-size: 20px;
 text-align: center;
 border-radius: 10px;
+overflow: scroll;
 
 
 }
@@ -84,7 +85,9 @@ h1 {
 }
 nav {
     text-align: right;
-
+    margin: 30px;
+    display: flex;
+    justify-content: flex-end;
 }
 #departure {
     padding: 10px;
@@ -110,4 +113,24 @@ nav {
     border-radius: 5px;
 }
 
+#triplist {
+height: 50px;
+display: flex;
+font-size: 15px;
+justify-content: space-between;
+margin-left: 20px;
+
+
+}
+.time {
+    margin-left: 20px   ;
+}
+.bookingButton {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 15px;
+}
 
